@@ -6,7 +6,9 @@ function pageLoad() {
   // is refreshed or reloaded, the 'ride' variable will contain something different
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
-  
+
+//Luke Sims HW3
+
   console.log(ride)
 
   if (ride.length > 1 && ride[0].numberOfPassengers == 1) { 
@@ -37,7 +39,7 @@ passenger2DropoffAddressLine2 = ride[1].dropoffLocation.city + ", " + ride[1].dr
 passenger2PickupAddressLine1 = ride[1].pickupLocation.address 
 passenger2PickupAddressLine2 = ride[1].pickupLocation.city + ", " + ride[1].pickupLocation.state + " " + ride[1].pickupLocation.zip
 }
-//Luke Sims HW3
+
 if (ride.length > 2){
 passenger3Name = ride[2].passengerDetails.first + " " + ride[2].passengerDetails.last 
 passenger3Phone = ride[2].passengerDetails.phoneNumber 
